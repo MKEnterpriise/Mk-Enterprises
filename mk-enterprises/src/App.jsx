@@ -13,6 +13,7 @@ import ProductEdit from './pages/admin/ProductEdit'
 import UserProtectedRoute from './protectedRoutes/UserProtectedRoute'
 import AdminProtectedRoute from './protectedRoutes/AdminProtectedRoute'
 import {ToastContainer} from 'react-toastify'
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   const location = useLocation();
@@ -46,6 +47,7 @@ function App() {
         </Routes>
       )}
       <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="light"/>
+      <Analytics />
     </div>
   );
 }
