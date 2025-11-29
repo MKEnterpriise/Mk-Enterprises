@@ -217,7 +217,7 @@ span.error {
 
 .hero-sub {
   /* color: var(--muted); */
-  color: #283a54;
+  color: #ffffff8a;
   text-align: center;
 }
 
@@ -1210,7 +1210,7 @@ span.error {
   }
 
   body.nav-open .main-nav {
-    top: 64px;
+    top: 103px;
   }
   .footer-section {
     flex: unset;

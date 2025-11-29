@@ -40,8 +40,8 @@ export default function Header({ showLogin = true }) {
       <div className="container header-inner">
         {isMobile ? (
           <div className="brand" onClick={() => navigate("/")}>
-            <img src={logo} style={{ width: "80px" }} />
-            <span className="brand-text">M. K. Enterprises</span>
+            <img src={logo} style={{ width: "40px" }} />
+            <span className="brand-text">M K E</span>
           </div>
         ) : (
           <div className="brand" onClick={() => navigate("/")}>
@@ -52,6 +52,7 @@ export default function Header({ showLogin = true }) {
 
         <nav className="main-nav">
           <NavLink
+          onClick={() => document.body.classList.remove("nav-open")}
             to="/"
             className="nav-link"
             style={{ display: "flex", gap: "8px" }}
@@ -59,6 +60,7 @@ export default function Header({ showLogin = true }) {
             <Home size={20} /> Home
           </NavLink>
           <NavLink
+          onClick={() => document.body.classList.remove("nav-open")}
             to="/about"
             className="nav-link"
             style={{ display: "flex", gap: "8px" }}
@@ -67,6 +69,7 @@ export default function Header({ showLogin = true }) {
             About
           </NavLink>
           <NavLink
+          onClick={() => document.body.classList.remove("nav-open")}
             to="/services"
             className="nav-link"
             style={{ display: "flex", gap: "8px" }}
