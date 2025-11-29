@@ -34,14 +34,14 @@ export default function AboutPage() {
                 <strong>Legal Status:</strong> MK ENTERPRISES – PROPRIETORSHIP
               </li>
               <li>
-                <strong>Year Established:</strong> 2023
+                <strong>Year Established:</strong> 2020
               </li>
               <li>
                 <strong>Headquarters:</strong> Mumbai, Maharashtra
               </li>
               <li>
-                <strong>Nature of Business:</strong> Manufacturer and supplier
-                of plastic injection-molded components
+                <strong>Nature of Business:</strong> Manufacturer, supplier and
+                importer of ABS PLASTIC ENCLOSURE
               </li>
             </ul>
           </div>
