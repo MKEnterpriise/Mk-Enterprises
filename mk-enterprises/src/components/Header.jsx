@@ -29,9 +29,9 @@ export default function Header({ showLogin = true }) {
 
   useEffect(() => {
     if (window.innerWidth > "767px") {
-      setIsMobile(false);
-    } else {
       setIsMobile(true);
+    } else {
+      setIsMobile(false);
     }
   }, []);
 
@@ -46,7 +46,7 @@ export default function Header({ showLogin = true }) {
         ) : (
           <div className="brand" onClick={() => navigate("/")}>
             <img src={logo} style={{ width: "80px" }} />
-            <span className="brand-text">M. K. Enterprises</span>
+            <span className="brand-text">M K Enterprises</span>
           </div>
         )}
 

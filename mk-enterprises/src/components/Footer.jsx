@@ -42,8 +42,8 @@ export default function Footer() {
           <br />
           <div style={{ display: "flex", gap: "8px" }}>
             <Mail />
-            <a href="mailto:mkenterprisesenclosures@gmail.com">
-              mkenterprisesenclosures@gmail.com
+            <a href="mailto:info.mkenterprisesenclosures@gmail.com">
+              info.mkenterprisesenclosures@gmail.com
             </a>
           </div>
           <br />
@@ -57,8 +57,7 @@ export default function Footer() {
             <a href="https://share.google/R3LLW9heKdyQA5UHn">
               MK ENTERPRISES Floor No., K 5, Building No./Flat No. R No. 403,
               Anand Gad Parksite Colony, Opp. Flour Mill, PSM Colony, Sub Post
-              Office, Vikhroli-400079 Mumbai, Maharashtra GSTIN/UIN :
-              27AKLPR7003D1Z7 State Name : Maharashtra, Code : 27
+              Office, Vikhroli-400079 Mumbai, Maharashtra 
             </a>
           </div>
         </div>
