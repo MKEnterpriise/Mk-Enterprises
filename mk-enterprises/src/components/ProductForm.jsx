@@ -37,7 +37,7 @@ const ProductForm = ({
       newErrors.description = "Description should be at least 10 characters.";
     }
 
-    if (!inputs.price.trim()) {
+    if (!String(inputs.price).trim()) {
       newErrors.price = "Price is required.";
     } else if (isNaN(inputs.price) || parseFloat(inputs.price) <= 0) {
       newErrors.price = "Price must be a valid number greater than 0.";
